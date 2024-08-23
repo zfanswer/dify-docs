@@ -52,11 +52,15 @@ IM是天然的智能聊天机器人应用场景，校企用户有不少是使用
 
 <figure><img src="../../.gitbook/assets/dify-on-dingtalk/dingtalk-add-robot.jpg" alt="" width="600"><figcaption></figcaption></figure>
 
-打开机器人配置开关，在下方出现的表单中按您的实际情况填入各必要信息，**在消息接收模式上选择Stream模式**。
+打开机器人配置开关，在下方出现的表单中按您的实际情况填入各必要信息，**在消息接收模式上选择Stream模式**，点击发布。
 
 <figure><img src="../../.gitbook/assets/dify-on-dingtalk/dingtalk-robot-config.jpg" alt="" width="480"><figcaption></figcaption></figure>
 
-点击发布后，再去到左边栏的应用发布->版本管理与发布->创建新版本，给应用建立一个新版本进行发布。
+接下来还需要给这个应用添加一下响应的权限，主要是添加对话中AI卡片相关的权限。
+
+<figure><img src="../../.gitbook/assets/dify-on-dingtalk/dingtalk_card_privilege.jpg" alt="" width="480"><figcaption></figcaption></figure>
+
+最后到左边栏的应用发布->版本管理与发布->创建新版本，给应用建立一个新版本进行发布。
 
 <figure><img src="../../.gitbook/assets/dify-on-dingtalk/dingtalk-app-versioning.jpg" alt="" width="600"><figcaption></figcaption></figure>
 
