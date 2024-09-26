@@ -26,7 +26,7 @@ When creating an application for the first time, you might need to first underst
 
 <figure><img src="../../../img/create-from-blank.png" alt=""><figcaption><p>Create a blank application</p></figcaption></figure>
 
-When selecting a specific application type, you can customize it by giving a name, choosing an appropriate icon, and providing a clear and concise description of its purpose. These details will help team members easily understand and use the application in the future.
+When selecting a specific application type, you can customize it by providing a name, choosing an appropriate icon(or uploading your favorite image as an icon), and writing a clear and concise description of its purpose. These details will help team members easily understand and use the application in the future.
 
 ### Creating from a DSL File
 

@@ -39,9 +39,17 @@ Dify supports the below model providers out-of-box:
             <td align="center">✔️</td>
         </tr>
         <tr>
+            <td align="center">Gemini</td>
+            <td align="center">✔️</td>
+            <td align="center"></td>
+            <td align="center"></td>
+            <td align="center"></td>
+            <td align="center"></td>
+        </tr>        
+        <tr>
             <td align="center">Google Cloud</td>
             <td align="center">✔️(👓)</td>
-            <td align="center"></td>
+            <td align="center">✔️</td>
             <td align="center"></td>
             <td align="center"></td>
             <td align="center"></td>
@@ -139,7 +147,7 @@ Dify supports the below model providers out-of-box:
             <td align="center">Hugging Face</td>
             <td align="center">✔️</td>
             <td align="center">✔️</td>
-            <td align="center">✔️</td>
+            <td align="center"></td>
             <td align="center"></td>
             <td align="center"></td>
         </tr>
@@ -194,7 +202,7 @@ Dify supports the below model providers out-of-box:
         <tr>
             <td align="center">Wenxin</td>
             <td align="center">✔️</td>
-            <td align="center"></td>
+            <td align="center">✔️</td>
             <td align="center"></td>
             <td align="center"></td>
             <td align="center"></td>
@@ -209,7 +217,7 @@ Dify supports the below model providers out-of-box:
         </tr>
         <tr>
             <td align="center">Tencent Cloud</td>
-            <td align="center">✔️</td>
+            <td align="center"></td>
             <td align="center"></td>
             <td align="center"></td>
             <td align="center">✔️</td>
@@ -246,7 +254,15 @@ Dify supports the below model providers out-of-box:
             <td align="center"></td>
             <td align="center"></td>
             <td align="center"></td>
-        </tr>        
+        </tr>
+        <tr>
+            <td align="center">Azure AI Studio</td>
+            <td align="center">✔️</td>
+            <td align="center"></td>
+            <td align="center">✔️</td>
+            <td align="center"></td>
+            <td align="center"></td>
+        </tr>
         <tr>
             <td align="center">deepseek</td>
             <td align="center">✔️(🛠️)</td>
@@ -272,7 +288,7 @@ Dify supports the below model providers out-of-box:
             <td align="center"></td>
         </tr>        
         <tr>
-            <td align="center">Jina</td>
+            <td align="center">Jina AI</td>
             <td align="center"></td>
             <td align="center">✔️</td>
             <td align="center">✔️</td>
@@ -316,7 +332,7 @@ Dify supports the below model providers out-of-box:
             <td align="center">✔️</td>
             <td align="center">✔️</td>
             <td align="center"></td>
-            <td align="center"></td>
+            <td align="center">✔️</td>
             <td align="center"></td>
         </tr>
         <tr>
@@ -350,13 +366,20 @@ Dify supports the below model providers out-of-box:
             <td align="center">✔️</td>
             <td align="center"></td>
             <td align="center"></td>
+        </tr>
+        <tr>
+            <td align="center">Text Embedding Inference</td>
+            <td align="center"></td>
+            <td align="center">✔️</td>
+            <td align="center">✔️</td>
+            <td align="center"></td>
+            <td align="center"></td>
         </tr>        
     </tbody>
 </table>
 
+where (🛠️) ︎ denotes "function calling" and (👓) denotes "support for vision".
 
-where (🛠️) ︎ denotes Function Calling and (👓) denotes support for vision.
-
-***
+---
 
 This table is continuously updated. We also keep track of model providers requested by community members [here](https://github.com/langgenius/dify/discussions/categories/ideas). If you'd like to see a model provider not listed above, please consider contributing by making a PR. To learn more, check out our [contribution.md](../../community/contribution.md "mention") Guide.

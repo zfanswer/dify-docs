@@ -4,7 +4,7 @@
 
 After creating an application, if you want to modify the application name or description, you can click "Edit info" in the upper left corner of the application to revise the application's icon, name, or description.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Edit App Info</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Edit App Info</p></figcaption></figure>
 
 ### Duplicating Application
 

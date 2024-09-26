@@ -39,9 +39,17 @@ Dify 为以下模型提供商提供原生支持：
             <td align="center">✔️</td>
         </tr>
         <tr>
+            <td align="center">Gemini</td>
+            <td align="center">✔️</td>
+            <td align="center"></td>
+            <td align="center"></td>
+            <td align="center"></td>
+            <td align="center"></td>
+        </tr>
+        <tr>
             <td align="center">Google Cloud</td>
             <td align="center">✔️(👓)</td>
-            <td align="center"></td>
+            <td align="center">✔️</td>
             <td align="center"></td>
             <td align="center"></td>
             <td align="center"></td>
@@ -139,7 +147,7 @@ Dify 为以下模型提供商提供原生支持：
             <td align="center">Hugging Face</td>
             <td align="center">✔️</td>
             <td align="center">✔️</td>
-            <td align="center">✔️</td>
+            <td align="center"></td>
             <td align="center"></td>
             <td align="center"></td>
         </tr>
@@ -194,7 +202,7 @@ Dify 为以下模型提供商提供原生支持：
         <tr>
             <td align="center">文心一言</td>
             <td align="center">✔️</td>
-            <td align="center"></td>
+            <td align="center">✔️</td>
             <td align="center"></td>
             <td align="center"></td>
             <td align="center"></td>
@@ -209,7 +217,7 @@ Dify 为以下模型提供商提供原生支持：
         </tr>
         <tr>
             <td align="center">Tencent Cloud</td>
-            <td align="center">✔️</td>
+            <td align="center"></td>
             <td align="center"></td>
             <td align="center"></td>
             <td align="center">✔️</td>
@@ -246,7 +254,15 @@ Dify 为以下模型提供商提供原生支持：
             <td align="center"></td>
             <td align="center"></td>
             <td align="center"></td>
-        </tr>        
+        </tr>
+        <tr>
+            <td align="center">Azure AI Studio</td>
+            <td align="center">✔️</td>
+            <td align="center"></td>
+            <td align="center">✔️</td>
+            <td align="center"></td>
+            <td align="center"></td>
+        </tr>
         <tr>
             <td align="center">deepseek</td>
             <td align="center">✔️(🛠️)</td>
@@ -272,7 +288,7 @@ Dify 为以下模型提供商提供原生支持：
             <td align="center"></td>
         </tr>        
         <tr>
-            <td align="center">Jina</td>
+            <td align="center">Jina AI</td>
             <td align="center"></td>
             <td align="center">✔️</td>
             <td align="center">✔️</td>
@@ -316,7 +332,7 @@ Dify 为以下模型提供商提供原生支持：
             <td align="center">✔️</td>
             <td align="center">✔️</td>
             <td align="center"></td>
-            <td align="center"></td>
+            <td align="center">✔️</td>
             <td align="center"></td>
         </tr>
         <tr>
@@ -346,6 +362,14 @@ Dify 为以下模型提供商提供原生支持：
         <tr>
             <td align="center">Amazon Sagemaker</td>
             <td align="center">✔️</td>
+            <td align="center">✔️</td>
+            <td align="center">✔️</td>
+            <td align="center"></td>
+            <td align="center"></td>
+        </tr>
+        <tr>
+            <td align="center">Text Embedding Inference</td>
+            <td align="center"></td>
             <td align="center">✔️</td>
             <td align="center">✔️</td>
             <td align="center"></td>

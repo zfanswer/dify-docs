@@ -14,7 +14,7 @@ Now you can also directly call the OpenAI Moderation API on Dify; you can review
 
 ## Keywords
 
-Developers can customize the sensitive words they need to review, such as using "kill" as a keyword to perform an audit action when users input. The preset reply content should be "The content is violating usage policies." It can be anticipated that when a user inputs a text snippet containing "kill" at the terminal, it will trigger the sensitive word review tool and return the preset reply content.
+Developers can customize the sensitive words they need to review, such as using "kill" as a keyword to perform an audit action when users input. The preset reply content should be "The content is violating usage policies." It can be anticipated that when a user inputs a text chuck containing "kill" at the terminal, it will trigger the sensitive word review tool and return the preset reply content.
 
 <figure><img src="../../../../img/keywords-content-moderation.png" alt="" width="563"><figcaption><p>Configuring Load Balancing from Add Model</p></figcaption></figure>
 

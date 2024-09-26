@@ -9,7 +9,7 @@
 
 対応するモジュール機能を開発するだけでなく、DifyがAPIを正しく呼び出せるよう、以下の規範にも従う必要があります。
 
-<figure><img src="../../../.gitbook/assets/api_based_01.png" alt=""><figcaption><p>APIに基づくエクステンション</p></figcaption></figure>
+<figure><img src="../../../../en/.gitbook/assets/guides/extension/api_based_extension/screenshot-20231128-104353.png" alt=""><figcaption><p>APIに基づくエクステンション</p></figcaption></figure>
 
 ### API規範 <a href="#usercontentapi-gui-fan" id="usercontentapi-gui-fan"></a>
 
@@ -194,11 +194,11 @@ POST https://fake-domain.com/api/dify/receive
     </strong></code></pre>
 4. DifyにこのAPIを設定します。
 
-<figure><img src="https://github.com/langgenius/dify-docs/raw/main/zh_CN/.gitbook/assets/api_based_01.png" alt=""><figcaption><p>APIの設定</p></figcaption></figure>
+<figure><img src="../../../../en/.gitbook/assets/guides/extension/api_based_extension/screenshot-20231128-104353.png" alt=""><figcaption><p>APIの設定</p></figcaption></figure>
 
 5. アプリでこのAPIエクステンションを選択します。
 
-<figure><img src="https://github.com/langgenius/dify-docs/raw/main/zh_CN/.gitbook/assets/api_based_02.png" alt=""><figcaption><p>エクステンションの選択</p></figcaption></figure>
+<figure><img src="../../../../en/.gitbook/assets/guides/extension/api_based_extension/screenshot-20231128-104353 (1) (1).png" alt=""><figcaption><p>エクステンションの選択</p></figcaption></figure>
 
 アプリのデバッグ時、Difyは設定されたAPIにリクエストを送り、以下の内容（例）を送信します：
 
@@ -260,4 +260,4 @@ Difyクラウド版は内網APIサービスにアクセスできないため、�
 
 Cloudflare Workersを使用してAPIエクステンションをデプロイすることをお勧めします。Cloudflare Workersは簡単にパブリックアドレスを提供でき、無料で使用できます。
 
-[cloudflare\_workers.md](cloudflare\_workers.md "mention")。
+[cloudflare-workers.md](cloudflare-workers.md "mention")。

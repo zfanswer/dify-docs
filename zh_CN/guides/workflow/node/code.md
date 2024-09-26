@@ -15,7 +15,7 @@
 <figure><img src="../../../.gitbook/assets/image (157).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## 配置
-如果您需要在代码节点中使用其他节点的变量，您需要在`输入变量`中定义变量名，并引用这些变量，可以参考[变量引用](../key_concept.md#变量)。
+如果您需要在代码节点中使用其他节点的变量，您需要在`输入变量`中定义变量名，并引用这些变量，可以参考[变量引用](../key-concept.md#变量)。
 
 ## 使用场景
 使用代码节点，您可以完成以下常见的操作：
@@ -64,5 +64,5 @@ docker-compose -f docker-compose.middleware.yaml up -d
 
 > 如果您的系统安装了 Docker Compose V2 而不是 V1，请使用 `docker compose` 而不是 `docker-compose`。通过`$ docker compose version`检查这是否为情况。在[这里](https://docs.docker.com/compose/#compose-v2-and-the-new-docker-compose-command)阅读更多信息。
 
-## 限制
+## 安全策略
 无论是Python还是Javascript，它们的执行环境都被严格隔离（沙箱化），以确保安全性。这意味着开发者不能使用那些消耗大量系统资源或可能引发安全问题的功能，如直接访问文件系统、进行网络请求或执行操作系统级别的命令。这些限制保证了代码的安全执行，同时避免了对系统资源的过度消耗。
