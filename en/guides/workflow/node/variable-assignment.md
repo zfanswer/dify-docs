@@ -4,7 +4,7 @@
 
 The variable assigner node is used to assign values to writable variables. Currently supported writable variables include:
 
-- [conversation variables](https://docs.dify.ai/guides/workflow/key_concepts#conversation-variables).
+- [conversation variables](https://docs.dify.ai/guides/workflow/key-concepts#conversation-variables).
 
 Usage: Through the variable assigner node, you can assign workflow variables to conversation variables for temporary storage, which can be continuously referenced in subsequent conversations.
 
@@ -18,7 +18,7 @@ Using the variable assigner node, you can write context from the conversation pr
 
 **Scenario 1**
 
-You can write the **context during the conversation, the file uploaded to the chatting box (coming soon), the preference information entered by the user,etc.** into the conversation variable using **Variale Assigner** node. These stored information can be referenced in subsequent chats to guide different processing flows or provide reponses.
+You can write the **context during the conversation, the file uploaded to the chatting box (coming soon), the preference information entered by the user,etc.** into the conversation variable using **Variable Assigner** node. These stored information can be referenced in subsequent chats to guide different processing flows or provide responses.
 
 **Scenario 1**
 

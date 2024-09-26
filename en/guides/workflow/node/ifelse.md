@@ -41,4 +41,4 @@ Taking the above **Text Summary Workflow** as an example:
 
 For complex condition judgments, you can set multiple condition judgments and configure **AND** or **OR** between conditions to take the **intersection** or **union** of the conditions, respectively.
 
-<figure><img src="../../../../img/mutliple-judgement.png" alt="" width="369"><figcaption><p>Multiple Condition Judgments</p></figcaption></figure>
+<figure><img src="../../../../img/multiple-judgement.png" alt="" width="369"><figcaption><p>Multiple Condition Judgments</p></figcaption></figure>

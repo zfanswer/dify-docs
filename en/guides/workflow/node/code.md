@@ -15,7 +15,7 @@ This node significantly enhances the flexibility for developers, allowing them t
 <figure><img src="/en/.gitbook/assets/guides/workflow/node/code/image (157).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## Configuration
-If you need to use variables from other nodes in the code node, you must define the variable names in the `input variables` and reference these variables. You can refer to [Variable References](../key_concept.md#variables).
+If you need to use variables from other nodes in the code node, you must define the variable names in the `input variables` and reference these variables. You can refer to [Variable References](../key-concept.md#variables).
 
 ## Usage Scenarios
 Using the code node, you can perform the following common operations:
@@ -62,5 +62,5 @@ If you are a local deployment user, you need to start a sandbox service to ensur
 docker-compose -f docker-compose.middleware.yaml up -d
 ```
 
-## Limitations
+## Security Policies
 Both Python and JavaScript execution environments are strictly isolated (sandboxed) to ensure security. This means that developers cannot use functions that consume large amounts of system resources or may pose security risks, such as direct file system access, making network requests, or executing operating system-level commands. These limitations ensure the safe execution of the code while avoiding excessive consumption of system resources.

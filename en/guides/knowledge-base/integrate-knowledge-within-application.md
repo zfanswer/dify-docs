@@ -20,7 +20,7 @@ Taking a chat assistant as an example, the process is as follows:
 
 In applications that utilize multiple knowledge bases, it is essential to configure the retrieval mode to enhance the precision of retrieved content. To set the retrieval mode for the knowledge bases, navigate to **Context -- Retrieval Settings -- Rerank Setting**.
 
-#### N-to-1 Retrieval (Legacy)
+<!-- #### N-to-1 Retrieval (Legacy)
 
 The N-to-1 retrieval method operates through Function Call/ReAct, where each linked Knowledge Base serves as a functional tool. The LLM autonomously selects the most relevant knowledge base that aligns with the user's query for the search, based on the **semantic similarity between the user's question and the description of knowledge base**.
 
@@ -46,15 +46,15 @@ In N-to-1 mode, the effectiveness of retrieval is influenced by three primary fa
 
 - Opt for a more effective system inference model, limit the number of associated knowledge bases, and provide clear descriptions for each knowledge base.
 
-- When uploading content file to a knowledge base, the system inference model will automatically generate a summary description. To achieve the best retrieval results in this mode, review the system-generated summary in “Knowledge Base -> Settings -> Knowledge Base Description” to ensure it effectively summarizes the content of the knowledge base.
+- When uploading content file to a knowledge base, the system inference model will automatically generate a summary description. To achieve the best retrieval results in this mode, review the system-generated summary in “Knowledge Base -> Settings -> Knowledge Base Description” to ensure it effectively summarizes the content of the knowledge base. -->
 
-#### Multi-path Retrieval (Recommended)
+#### Retrieval Setting
 
-In the multi-retrieval recall mode, the retriever scans all knowledge bases linked to the application for text content relevant to the user's question. The results are then consolidated. Below is the technical flowchart for the Multi-path Retrieval mode:
+The retriever scans all knowledge bases linked to the application for text content relevant to the user's question. The results are then consolidated. Below is the technical flowchart for the Multi-path Retrieval mode:
 
 <figure><img src="../../../img/rerank-flow-chart.png" alt=""><figcaption></figcaption></figure>
 
-This method simultaneously queries all knowledge bases connected in **"Context"**, seeking relevant text snippets across multiple knowledge bases, collecting all content that aligns with the user's question, and ultimately applying the Rerank strategy to identify the most appropriate content to respond to the user. This retrieval approach offers more comprehensive and accurate results by leveraging multiple knowledge bases simultaneously.
+This method simultaneously queries all knowledge bases connected in **"Context"**, seeking relevant text chucks across multiple knowledge bases, collecting all content that aligns with the user's question, and ultimately applying the Rerank strategy to identify the most appropriate content to respond to the user. This retrieval approach offers more comprehensive and accurate results by leveraging multiple knowledge bases simultaneously.
 
 <figure><img src="../../../img/en-rag-multiple.png" alt=""><figcaption></figcaption></figure>
 
@@ -88,7 +88,7 @@ While this method incurs some additional costs, it is more adept at handling com
 
 > Click here to learn more about the [Re-ranking](https://docs.dify.ai/learn-more/extended-reading/retrieval-augment/rerank).
 
-Dify currently supports multiple Rerank models. To use external Rerank models, you'll need to provide an API Key. Enter the API Key for the Rerank model (such as Cohere, Jina, etc.) on the "Model Provider" page.
+Dify currently supports multiple Rerank models. To use external Rerank models, you'll need to provide an API Key. Enter the API Key for the Rerank model (such as Cohere, Jina AI, etc.) on the "Model Provider" page.
 
 <figure><img src="../../../img/en-rerank-model-api.png" alt=""><figcaption><p>Configuring the Rerank model in the Model Provider</p></figcaption></figure>
 
@@ -122,14 +122,7 @@ If the content in the knowledge base is complex and cannot be matched by simple 
 
 Here's how the knowledge base retrieval method affects Multi-path Retrieval:
 
-| **Knowledge Base Index Mode** | **Knowledge Base Retrieval Setting** | **Embedding Model** | **Multi-path Retrieval Page Prompt** | **Reason** |
-| --- | --- | --- | --- | --- |
-| All Economic | Inverted index | None | Unable to use weight configuration, allows enabling Rerank model | - |
-| All High Quality | 1. All knowledge bases use vector retrieval | Same Embedding model | Default "Weight Score", semantic value is 1 | Rerank settings match knowledge base retrieval settings |
-| All High Quality | 2. All knowledge bases use full-text retrieval | Same Embedding model | Default "Weight Score", keyword value is 1 | Rerank settings match knowledge base retrieval settings |
-| All High Quality | 3. Mixed | Same Embedding model | Default custom configuration in "Weight Score", ratio of semantic:keyword = 0.7:0.3 | Knowledge base content source mixes semantics and keywords, allows business personnel to customize Weight Score |
-| Both Economic and High Quality | Different retrieval settings used | Different Embedding models | Requires enabling Rerank model | Content source is complex, suggested to enable Rerank model to ensure content return quality |
-| High Quality | Same/different retrieval settings used | Different Embedding models | Requires enabling Rerank model | Content source format in this situation is not uniform, cannot be sorted by the same standard. To ensure content retrieval accuracy, Rerank model configuration is required to enhance content retrieval accuracy. |
+![](../../../img/integrate-knowledge-within-app.png)
 
 3. **What should I do if I cannot adjust the “Weight Score” when referencing multiple knowledge bases and an error message appears?**
 

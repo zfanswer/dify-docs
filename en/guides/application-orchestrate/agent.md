@@ -28,7 +28,11 @@ You have the option to directly use built-in tools in Dify, or you can easily im
 
 <figure><img src="/en/.gitbook/assets/guides/application_orchestrate/agent/docs-5.png" alt=""><figcaption><p>Adding Tools for the Assistant</p></figcaption></figure>
 
-The tool allows you to create more powerful AI applications on Dify. For example, you can orchestrate suitable tools for Agent Assistant, enabling it to complete complex tasks through reasoning, step decomposition, and tool invocation. Additionally, the tool facilitates the integration of your application with other systems or services, allowing interaction with the external environment, such as code execution and access to exclusive information sources.
+The **Tools** feature allows you to create more powerful AI applications on Dify. For example, you can orchestrate suitable tools for Agent Assistant, enabling it to complete complex tasks through reasoning, step decomposition, and tool invocation. 
+
+Additionally, the tool simplifies the integration of your application with other systems or services, enabling interactions with the external environment, such as executing code or accessing proprietary information sources. Simply mention the name of the tool you want to invoke in the chat box, and it will be automatically activated.
+
+![](../../../img/agent-dalle3.png)
 
 ## Agent Settings
 

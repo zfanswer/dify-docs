@@ -110,7 +110,7 @@ Click the "API Reference" button on the page of Overview page. You can refer to 
 
 #### 1. Generate API Secret Key[​](https://wsyfin.com/notion-dify#1-generate-api-secret-key) <a href="#id-1-generate-api-secret-key" id="id-1-generate-api-secret-key"></a>
 
-For sercurity reason, it's recommened to create new API secret key to access your AI application.
+For security reasons, it's recommended to create a new API secret key to access your AI application.
 
 ![using-api-2](../../../img/notion-ai-assistant/using-api-2.png)
 
